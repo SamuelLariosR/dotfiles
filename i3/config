@@ -199,6 +199,9 @@ for_window [class="^.*"] border pixel 2.5
 # --- Lanzar Polybar automáticamente al iniciar ---
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
+# --- Ocultar / mostrar Polybar 
+bindsym $mod+Shift+s exec --no-startup-id "polybar-msg cmd toggle"
+
 # wallpaper
 exec_always --no-startup-id feh --bg-fill ~/Imágenes/WALPA.jpeg
 
