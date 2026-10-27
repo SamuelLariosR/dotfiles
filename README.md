@@ -16,6 +16,7 @@ My personal setup for **MX Linux** with the **i3** window manager and a **Polyba
 - `.config/rofi/config.rasi` – Rofi launcher layout, sizes and widgets.
 - `.config/rofi/colors/night.rasi` – Grey color scheme matched to the wallpaper, Polybar and i3 borders.
 - `.config/rofi/shared/` – Shared color import and font settings.
+- `.config/rofi/powermenu.sh` – Rofi power menu (lock, logout, reboot, shutdown, suspend).
 
 ## Keybindings
 
@@ -44,6 +45,7 @@ mkdir -p ~/.config/i3 ~/.config/polybar ~/.config/rofi
 cp .config/i3/config ~/.config/i3/config
 cp .config/polybar/*.ini ~/.config/polybar/
 cp -r .config/rofi/. ~/.config/rofi/
+chmod +x ~/.config/rofi/powermenu.sh
 ```
 
 Reload i3 with `Super + Shift + C`.
@@ -51,7 +53,7 @@ Reload i3 with `Super + Shift + C`.
 ## Notes
 
 - The mod key is `Super` (`Mod4`).
-- The power menu expects `~/bin/powermenu.sh`, a small rofi script kept outside this repo. Without it, `Super + Shift + E` will not open anything.
+- The power menu is `.config/rofi/powermenu.sh`; `Super + Shift + E` runs it from `~/.config/rofi/powermenu.sh`.
 - Rofi's translucent background needs a compositor (`picom`) running.
 - The wallpaper path in the i3 config (`~/Imágenes/WALPA.jpeg`) is mine; point it to your own image.
 - This is a work in progress: I'll keep tweaking it as I learn.
