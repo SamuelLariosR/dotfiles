@@ -1,10 +1,9 @@
 # dotfiles
 
 My personal setup for **MX Linux** with the **i3** window manager and a **Polybar** status bar. I'm a software engineering student, and I keep this repo to document how my environment evolves as I learn.
-DESSKTOP / THEME
 ![Desktop screenshot](.config/screenshots/desktop.png)
 
-ROFI / THEME
+# ROFI / THEME
 ![Rofi launcher](.config/screenshots/rofi.png)
 
 ## What's inside
