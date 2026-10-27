@@ -1,0 +1,27 @@
+/**
+ * Night Grey
+ *
+ * Paleta derivada del wallpaper (WALPA.jpeg), de los colores de
+ * Polybar (bg0/fg0/fg1) y del borde de ventanas de i3 (#888888).
+ *
+ *   wallpaper: #1c1b1c  #3e3e41  #545255  #767b84  #c7c5c7
+ *   polybar:   #282828  #3c3836  #b4b4b4  #ebdbb2
+ *   i3:        #888888
+ **/
+
+* {
+    /* Base: fondo oscuro del wallpaper, con transparencia tipo Polybar */
+    background:      rgba(28, 27, 28, 92%);
+    background-alt:  rgba(62, 62, 65, 90%);
+    foreground:      #b4b4b4;
+
+    /* Acentos en grises claros (monocromo, igual que el escritorio) */
+    selected:        #c7c5c7;
+    active:          #80818a;
+    urgent:          #857878;
+    border:          #545255;
+
+    /* Extras */
+    dim:             #767b84;
+    bright:          #ebdbb2;
+}

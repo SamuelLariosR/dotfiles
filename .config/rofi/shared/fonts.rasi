@@ -1,0 +1,13 @@
+/**
+ * Author : Aditya Shakya (adi1090x)
+ * Github : @adi1090x
+ *
+ * Fonts
+ *
+ * Misma familia que Polybar (JetBrainsMono Nerd Font) para
+ * mantener el escritorio coherente.
+ **/
+
+* {
+    font: "JetBrainsMono Nerd Font 11";
+}
