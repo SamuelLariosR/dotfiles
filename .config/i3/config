@@ -201,7 +201,7 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 bindsym $mod+Shift+s exec --no-startup-id "polybar-msg cmd toggle"
 
 # wallpaper
-exec_always --no-startup-id feh --bg-fill ~/Imágenes/WALPA.jpeg
+exec_always --no-startup-id feh --bg-fill ~/Imágenes/WALPA_MAX.jpeg
 
 # print
 bindsym Print exec --no-startup-id flameshot gui
