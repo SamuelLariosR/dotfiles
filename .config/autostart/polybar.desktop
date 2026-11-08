@@ -1,0 +1,7 @@
+
+[Desktop Entry]
+Type=Application
+Name=Polybar
+Exec=/home/samuel/.config/polybar/launch.sh
+Terminal=false
+X-GNOME-Autostart-enabled=true
